@@ -8,9 +8,10 @@ Manage and load your API routes without messing up your app.js file
 npm install exroute
 ```
 
-##Usage
+## Usage
+```
 var exroute = require('exroute');
-
+```
 
 ## In your app.js file
 ```
