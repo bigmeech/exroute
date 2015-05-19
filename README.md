@@ -8,9 +8,13 @@ Manage and load your API routes without messing up your app.js file
 npm install exroute
 ```
 
+##Usage
+var exroute = require('exroute');
+
+
 ## In your app.js file
 ```
-routeController.init(app, {
+exroute.init(app, {
     caseSensitive:false,
     mergeParams:false,
     strict:false,
