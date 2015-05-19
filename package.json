@@ -1,0 +1,33 @@
+{
+  "name": "exroute",
+  "version": "1.0.0",
+  "description": "A Simple, Opinionated way to manage express route definitions",
+  "main": "lib/index",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bigmeech/exroute"
+  },
+  "keywords": [
+    "expressJS",
+    "router",
+    "route",
+    "controllers",
+    "express"
+  ],
+  "author": "Larry Eliemenye",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bigmeech/exroute/issues"
+  },
+  "homepage": "https://github.com/bigmeech/exroute",
+  "dependencies": {
+    "canonical-path": "0.0.2",
+    "deasync": "^0.1.0",
+    "express": "^4.12.4",
+    "glob": "^5.0.6",
+    "lodash": "^3.8.0"
+  }
+}
