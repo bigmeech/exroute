@@ -9,12 +9,12 @@ npm install exroute
 ```
 
 ## Usage
-```
+```javascript
 var exroute = require('exroute');
 ```
 
 ## In your app.js file
-```
+```javascript
 exroute.init(app, {
     caseSensitive:false,
     mergeParams:false,
@@ -25,7 +25,7 @@ exroute.init(app, {
 
 
 ## A sample route file
-```
+```javascript
 function usersGet(req, res, next) {
     res.json({});
 }
